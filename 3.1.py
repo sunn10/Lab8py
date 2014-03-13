@@ -33,7 +33,14 @@ class Disk:
         goto(self.x)
         goto(self.y)
         
+    
+    def getH(self):
+        return self.height
         
+    def getW(self):
+        return self.width
+        
+    
 
     def cleardisk(self):
         goto(self.x,self.y)
